@@ -1,0 +1,104 @@
+/* index.css */
+
+/* Reset default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the background */
+.background {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+
+
+}
+
+/* Navigation bar styles */
+.l_navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  float: left;
+}
+
+.navbar-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-list li a:hover {
+  background-color: #555;
+}
+
+/* Social icons in the navigation bar */
+.social-icons a {
+  margin-left: 5px;
+  float: left;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+
+}
+
+.social-icons img:hover {
+  opacity: 1;
+}
+
+/* Heading styles */
+.heading {
+  text-align: center;
+  padding: 100px ;
+  color: white;
+}
+
+.heading h1 {
+  font-size: 36px;
+  margin-bottom: 1px;
+}
+
+.heading h6 {
+  font-size: 18px;
+  color: white;
+}
+.skills h3{
+  text-align: center;
+
+}
+.skills h1 {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .navbar-list li {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-list li a {
+    padding: 10px;
+  }
+  
+}
